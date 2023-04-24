@@ -1,0 +1,23 @@
+.footer {
+    background: #626fbd; /*Fundo em torno do elemento que o CSS for colocado.*/
+    color: #f5f3f3; /*Se houver elementos como escrita, ficará branco.*/
+    padding: 15px; /*Tamanho do elemento*/
+    display: flex; /* As linhas abaixo posicionamm os elementos em linha com espaçamento entre eles.*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.logo img{
+    max-width: 100%; /* Define a largura máxima como 100% da largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 60px;
+    margin: 0;
+  }
